@@ -202,7 +202,7 @@ export default function CalculadoraIMC() {
   const sexoFemale = t.inputs.feminino
 
   return (
-    <div className="relative min-h-screen overflow-hidden" style={{ background: 'var(--bg)' }}>
+    <div className="relative min-h-screen overflow-x-hidden" style={{ background: 'var(--bg)' }}>
       <div className="orb orb-1" />
       <div className="orb orb-2" />
 
